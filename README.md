@@ -1,3 +1,14 @@
+## How To Run The Code
+
+Each of plot1.R, plot2.R, plot3.R and plot4.R contain functions of the same
+names to generate the corresponding plot. They may take one or no argument.
+If no argument is specified, data will be loaded from household_power_consumption.txt,
+which is expected to be in the working directory. One may load the data
+using load.data() from common.R and pass it to each of the plotting functions
+to avoid having to load the data for each plot; this function also expects
+the data file to be in the working directory.
+
+
 ## Introduction
 
 This assignment uses data from
